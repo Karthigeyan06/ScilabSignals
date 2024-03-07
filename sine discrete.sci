@@ -1,0 +1,10 @@
+xlabel("Time");
+ylabel("A");
+a=2;
+f=300;
+pi=3.14;
+w=2*pi*f;
+t=0:100;
+y=a*sin(w*t);
+figure();
+plot2d3(y)
