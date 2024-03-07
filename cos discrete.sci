@@ -1,0 +1,10 @@
+xlabel("Time");
+ylabel("A");
+a=2;
+f=100;
+pi=3.14;
+w=2*pi*f;
+t=-70:70;
+y=cos(w*t);
+figure();
+plot2d3(y)
